@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+    
+
+}
+
+form{
+
+    width:450px;
+    background:white;
+    padding:20px;
+    text-align:center;
+    position:relative;
+    margin-top: 40px;
+    margin-left: 480px;
+    margin-right: 480px;
+    margin-bottom:100px;
+    
+
+    
+}
+
+.country{
+
+    font-size:14px;
+    text-align:center;
+    font-weight:80;
+    color:grey;
+}
+
+.container-img{
+    text-align: center;
+}
+.logotipo{
+    width:140px;
+    
+}
+
+input[type="text"]{
+
+    width:100%;
+    padding:14px;
+    font-size:16px;
+    margin-top:20px;
+    background:rgba(230, 228, 228, 0.6);
+    border-style:none;
+    outline:px;
+}
+
+input[type="button"]{
+
+    width:100%;
+    padding:14px;
+    font-size:14px;
+    font-weight:100px;
+    margin-top:20px;
+    background:rgba(17, 5, 124, 0.692);
+    border-style:none;
+    outline:px;
+    color:white;
+}
+
+input[type="button"]:hover{
+    background-color:darkblue;
+}
+
+.container-data{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    margin-top:20px;
+}
+
+.container-data h4{
+    font-size:14px;
+    font-weight:100px;
+    margin:2px;
+}
+
+.container-data a{
+    font-size:14px;
+    font-weight:bold;
+    text-decoration:none;
+    margin:2px;
+    color:black;
+    
+}
+
+.container-or{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    margin-top:20px;
+
+}
+
+.container-or hr{
+    width:185px;
+    height:1px;
+    border-style:none;
+    background:black;
+    margin-top:7px;
+}
+
+.container-or h2{
+    font-size:16px;
+    color: black;
+}
+
+.icon-facebook{
+
+    padding:40px;
+}
+
+.container-register{
+
+    width:100%;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.container-register h4{
+    font-size:14px;
+    font-weight:100;
+
+}
+
+.container-register a{
+    font-size:14px;
+    font-weight:bold;
+    margin-left:4px;
+    color:black;
+
+}
+
+@media screen and(max-width:780px){
+
+    form{
+        width:400px;
+        margin-left:400px;
+        color:red;
+    }
+    
+}
+
+
